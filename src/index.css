@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .datatext h1{
+        @apply font-medium text-[13px] md:text-[16px] text-gray-500
+    }
+    .datatext p{
+        @apply font-medium text-[22px] md:text-[27px] text-slate-800
+    }
+    .singleContainer{
+        @apply hover:bg-blue-100
+    }
+    .selected{
+        @apply bg-blue-300 
+    }
+}
